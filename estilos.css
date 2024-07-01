@@ -1,0 +1,54 @@
+
+#logo{
+    width: 186px;
+    height: 36px;
+    background: url(imagenes/logo.png);
+    font-size: 0; 
+    text-indent: -9999px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 1;
+
+}
+
+#banner{
+    background: url('./imagenes/banner1.jpg') no-repeat fixed;
+
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: yellow;
+}
+.Rowdies-font {
+    font-family: 'Rowdies', sans-serif;
+}
+#form-control {
+    background-color: transparent; /* Establece el fondo transparente o el color deseado */
+    border-color: #960726; /* Establece el color del borde deseado */
+    /* Otros estilos según tus necesidades */
+}
+
+.serif-font {
+    font-family: 'Noto Serif', serif;
+    font-size: large;
+}
+.raleway-font {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+.bebas-font {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+@media screen and (max-width: 992px){
+    #logo{
+        left: calc(45% - 50px);
+    }
+    #banner{
+        background: url('imagenes/banner2.jpg') no-repeat fixed;
+    }
+
+}
